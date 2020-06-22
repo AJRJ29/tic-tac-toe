@@ -1,33 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TICTACTOE</title>
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Frijole&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <body>
-  <h2 id="game-alert">GOKU VS FRIEZA TIC TAC TOE</h2>
-  <div id="container">
-    <div id="layer-1">
-      <div onclick="game(this,1);"></div>
-      <div onclick="game(this,2);"></div>
-      <div onclick="game(this,4);"></div>
+    <h1 id="h1">Tic-Tac-Toe</h1>
+    <h2 id="h2">GAME!</h2>
+    <div class="container column">
+        <div class="container wrap" id="board">
+        <div class="square" id="square1"></div>
+        <div class="square" id="square2"></div>
+        <div class="square" id="square3"></div>
+        <div class="square" id="square4"></div>
+        <div class="square" id="square5"></div>
+        <div class="square" id="square6"></div>
+        <div class="square" id="square7"></div>
+        <div class="square" id="square8"></div>
+        <div class="square" id="square9"></div>
+        </div>
     </div>
-    <div id="layer-2">
-      <div onclick="game(this,8);"></div>
-      <div onclick="game(this,16);"></div>
-      <div onclick="game(this,32);"></div>
-    </div>
-    <div id="layer-3">
-      <div onclick="game(this,64);"></div>
-      <div onclick="game(this,128);"></div> 
-      <div onclick="game(this,256);"></div>
-    </div>
-  </div>
-  <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
